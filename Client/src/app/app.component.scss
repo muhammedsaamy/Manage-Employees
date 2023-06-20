@@ -1,0 +1,74 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}
+
+.main-body{
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  max-width: 1248px;
+  mat-form-field{
+    width: 100%;
+  }
+
+}
+
+
+.snackbar {
+  background-color: rgb(56, 62, 119);
+  color: white;
+}
+
+// .custom-dialog-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.custom-dialog-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-elevation-z8 {
+  overflow-x: auto;
+}
+
+@media (max-width: 400px) {
+  .example-spacer {
+    display: none;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container button {
+    margin-bottom: 5px;
+  }
+}

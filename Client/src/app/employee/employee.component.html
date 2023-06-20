@@ -1,0 +1,87 @@
+<div matDialogTitle>
+  <h1>{{ data ? "Edit Employee" : "Add New Employee" }}</h1>
+</div>
+
+<form class="m-auto" [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+<div mat-dialog-content class="content">
+  <div class="row">
+<div >
+  <mat-form-field style="width: 100%;" appearance="fill">
+    <div>
+    <mat-label>Name</mat-label>
+    <input  matInput type="text" formControlName="name">
+    <!-- <mat-hint *ngIf="employeeForm.controls['mobile'].invalid" class="text-danger" align="end">jkgjk</mat-hint> -->
+  </div>
+
+
+  </mat-form-field>
+  <div *ngIf="employeeForm.controls['name'].touched&&employeeForm.controls['name'].invalid" class="text-danger">
+    <p *ngIf="employeeForm.controls['name'].errors?.['required']">Name is required</p>
+  </div>
+
+</div>
+<div>
+  <mat-form-field style="width: 100%;" appearance="fill">
+    <div>
+    <mat-label>email</mat-label>
+    <input matInput type="text" formControlName="email">
+    <!-- <mat-hint *ngIf="employeeForm.controls['mobile'].invalid" class="text-danger" align="end">jkgjk</mat-hint> -->
+  </div>
+
+
+  </mat-form-field>
+  <div *ngIf="employeeForm.controls['email'].touched&&employeeForm.controls['email'].invalid" class="text-danger">
+    <p *ngIf="employeeForm.controls['email'].errors?.['required']">email is required</p>
+    <p *ngIf="employeeForm.controls['email'].errors?.['pattern']">Email shoud be valid mail like "mail@gmail.com"</p>
+  </div>
+
+</div>
+
+<div>
+  <mat-form-field style="width: 100%;" appearance="fill">
+    <div>
+    <mat-label>Address</mat-label>
+    <input matInput type="text" formControlName="address">
+  </div>
+
+
+  </mat-form-field>
+  <div *ngIf="employeeForm.controls['address'].touched&&employeeForm.controls['address'].invalid" class="text-danger">
+    <p *ngIf="employeeForm.controls['address'].errors?.['required']">address is required</p>
+  </div>
+
+</div>
+
+<div>
+  <mat-form-field style="width: 100%;" appearance="fill">
+    <div>
+    <mat-label>Phone</mat-label>
+    <input matInput type="text" formControlName="mobile">
+    <!-- <mat-hint *ngIf="employeeForm.controls['mobile'].invalid" class="text-danger" align="end">jkgjk</mat-hint> -->
+  </div>
+
+
+  </mat-form-field>
+  <div *ngIf="employeeForm.controls['mobile'].touched&&employeeForm.controls['mobile'].invalid" class="text-danger">
+    <p *ngIf="employeeForm.controls['mobile'].errors?.['required']">mobile is required</p>
+    <p *ngIf="employeeForm.controls['mobile'].errors?.['pattern']">Phone should be valid"</p>
+  </div>
+
+</div>
+
+<div>
+  <label>File</label>
+  <input style="width: 100%;" type="file" accept=".txt , .pdf" (change)="onFileSelected($event)" #fileInput formControlName="fileName">
+  <p *ngIf="updatedFile">{{ updatedFile.name }}</p>
+
+</div>
+
+
+
+  </div>
+</div>
+<div matDialogActions>
+  <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+  <button mat-raised-button [disabled]="employeeForm.invalid" color="primary" id="buttons" type="submit" >{{data? "Update" : "Add"}}</button>
+</div>
+</form>

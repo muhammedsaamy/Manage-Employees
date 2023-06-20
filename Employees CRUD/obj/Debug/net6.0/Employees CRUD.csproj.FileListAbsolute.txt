@@ -1,0 +1,68 @@
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\appsettings.Development.json
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\appsettings.json
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Employees CRUD.exe
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Employees CRUD.deps.json
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Employees CRUD.runtimeconfig.json
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Employees CRUD.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Employees CRUD.pdb
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Humanizer.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Employees CRUD\Employees CRUD\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.csproj.AssemblyReference.cache
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.GeneratedMSBuildEditorConfig.editorconfig
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.AssemblyInfoInputs.cache
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.AssemblyInfo.cs
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.csproj.CoreCompileInputs.cache
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.MvcApplicationPartsAssemblyInfo.cs
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.MvcApplicationPartsAssemblyInfo.cache
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets\msbuild.Employees CRUD.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets\msbuild.build.Employees CRUD.props
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Employees CRUD.props
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Employees CRUD.props
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets.build.json
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\staticwebassets.development.json
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\scopedcss\bundle\Employees CRUD.styles.css
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.csproj.CopyComplete
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.dll
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\refint\Employees CRUD.dll
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.pdb
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\Employees CRUD.genruntimeconfig.cache
+E:\Employees CRUD\Employees CRUD\obj\Debug\net6.0\ref\Employees CRUD.dll

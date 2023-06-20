@@ -1,0 +1,114 @@
+
+  <mat-toolbar class="col-sm-12 col-12" style="padding: 10px; background-color: rgb(44, 44, 88);">
+    <span style="color: aliceblue; font-weight: bold; font-size: 20px;">Manage Employees</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button [disabled]="selection.selected.length == 0" (click)="deleteEmployees()" class="me-2" color="warn">Delete selected</button>
+    <button mat-raised-button (click)="openAddEditeEmpForm()" style="color: aliceblue; background-color: rgb(41, 107, 68);" >Add New Employee</button>
+
+  </mat-toolbar>
+<div class="container">
+
+<div class="col-6 m-auto my-2">
+  <mat-form-field >
+    <mat-label class="fw-bold">Filter</mat-label>
+    <input  matInput (keyup)="applyFilter($event)" placeholder="Filter" #input>
+  </mat-form-field>
+
+</div>
+
+<div class="container">
+<ngx-spinner type="ball-scale-multiple"></ngx-spinner>
+
+<div >
+
+  <div class="table-container">
+    <table mat-table [dataSource]="dataSource"  matSort>
+
+        <!-- Checkbox Column -->
+  <ng-container matColumnDef="select">
+    <th mat-header-cell *matHeaderCellDef>
+      <mat-checkbox (change)="$event ? toggleAllRows() : null"
+                    [disabled]="!employees"
+                    [checked]="selection.hasValue() && isAllSelected()"
+                    [indeterminate]="selection.hasValue() && !isAllSelected()"
+                    [aria-label]="checkboxLabel()">
+      </mat-checkbox>
+    </th>
+    <td mat-cell *matCellDef="let row">
+      <mat-checkbox (click)="$event.stopPropagation()"
+                    (change)="$event ? selection.toggle(row) : null"
+                    [checked]="selection.isSelected(row)"
+                    [aria-label]="checkboxLabel(row)">
+      </mat-checkbox>
+    </td>
+  </ng-container>
+
+
+
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+        <td mat-cell *matCellDef="let row"> {{row.name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+        <td mat-cell *matCellDef="let row"> {{row.email}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="mobile">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Mobile </th>
+        <td mat-cell *matCellDef="let row"> {{row.mobile}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="address">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Address </th>
+        <td mat-cell *matCellDef="let row"> {{row.address}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef > Action </th>
+        <td mat-cell *matCellDef="let row">
+          <button mat-icon-button (click)="openEditeEmpForm(row)">
+            <mat-icon style="color: rgb(233, 211, 17);">edit</mat-icon>
+          </button>
+          <button mat-icon-button (click)="deleteEmployee(row.id)">
+            <mat-icon style="color: rgb(221, 16, 16);">delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="View">
+        <th mat-header-cell *matHeaderCellDef > View </th>
+        <td mat-cell *matCellDef="let row">
+          <button mat-icon-button (click)="downloadFile(row.file)">
+            <mat-icon style="color: rgb(17, 31, 233);">link</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+
+      <tr class="mat-row" *matNoDataRow>
+        <ng-container *ngIf="selection.selected.length == 0  else employeesFound">
+          <td class="mat-cell" colspan="4"><h1> No Employees found </h1></td>
+        </ng-container>
+        <ng-template #employeesFound>
+          <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+        </ng-template>
+      </tr>
+
+    </table>
+
+
+    <mat-paginator [pageSize]="10" aria-label="Select page of Employees"></mat-paginator>
+  </div>
+
+</div>
+</div>
+
+</div>
